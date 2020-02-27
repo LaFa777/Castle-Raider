@@ -17,6 +17,11 @@ if jump {
 	vsp = jump_spd;
 }
 
+if block {
+	state = states.BLOCK;
+	hsp = 0;
+}
+
 //apply movement
 collision();
 
